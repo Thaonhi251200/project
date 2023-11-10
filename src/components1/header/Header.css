@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Jost', sans-serif;;
+}
+.submenu .sidebar .menu2 .chevron-down {
+   box-shadow: none;
+}
+
+.Header {
+    display: flex;
+    overflow: hidden;
+}
+div.Navbar1 {
+display: flex !important;
+padding-top: 20px;
+padding-bottom: 10px; 
+justify-content: space-between;
+}
+.header .Navbar1 .icon {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding-left: 108.5px;
+}
+.header .Navbar1 .icon i{ 
+    padding: 10px;
+    font-size: 20px;
+}
+.header .Navbar1 .logo a {
+    font-size: 30px;
+    color: var(--text-main);
+    text-decoration: none;
+    
+}
+.header .Navbar1 .find {
+    display: flex;
+    align-items: center;
+}
+.header .Navbar1 .find .search {
+    border: 1px solid #e5e5e5 ;
+    border-radius: 4px;
+}
+.header .Navbar1 .find #toggle {
+    display: none;
+    font-size: 30px;
+    padding: 8px;
+}
+div.Navbar1 .find .search input {
+    border: none;
+    /* height: 28px; */
+    /* border-radius: 2px 0px 0px 2px; */
+    font-size: 15px;
+    color: #e5e5e5;
+    padding: 10px;
+    padding-right: 10px;
+}
+.header .Navbar1 .find .search button {
+    border: none;
+    background: none;
+}
+.header .Navbar1 .find .search button i{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    /* border-radius: 0px 2px 2px 0px; */
+
+}
+/*  Navbar 2 */
+.header .line {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header .Navbar2 .phone i {
+    padding: 5px;
+    font-size: 15px;
+}
+.header .Navbar2 .phone {
+    display: flex;
+    align-items: center;
+}
+.header .Navbar2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+ 
+}
+
+.header .Navbar2  a {
+    text-decoration: none ;
+    color: var(--text-main);
+} 
+.header .Navbar2  a:hover { 
+    border-bottom: 1px solid var(--text-main);
+}  
+.header .Navbar2 .loco i {
+    padding: 5px;
+    font-size: 15px;
+}
+.header .Navbar2 .loco {
+    display: flex;
+    align-items: center;
+    padding-left: 53.71px;
+}
+/* .header .Navbar2 .loco a {
+    text-decoration:none ;
+    color:  var(--text-main);
+} */
+@media only screen and (max-width: 800px){
+    .header .Navbar1 .icon #user {
+        display: none;
+    }
+    .header .Navbar1 .icon #heart {
+        display: none;
+    }
+    .header .Navbar1 .find .search {
+        display: none;
+    }
+    .header .Navbar1 .find #toggle {
+        display: block;
+    }
+    .header .Navbar2 {
+        display: none   ;
+    }
+    .header .Navbar1 .icon {
+        padding: 0;
+    }
+
+}
+/* submenu */
+
+.submenu .sidebar {
+    width: 300px;
+    border: 1px solid #e5e5e5 ;
+    height: 100vh ;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #fff;
+    transform: translateX(-110%);
+    transition: 0.7s;
+    z-index: 1;
+}
+
+.submenu .sidebar.active{
+    /* display: none;   */
+    transform: translateX(0);
+    
+}
+
+.submenu .sidebar .logo2 {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #e9e9e9;
+}
+.submenu .sidebar .logo2 a {
+    text-decoration: none;
+    color:var(--text-main);
+
+}
+.submenu .sidebar .logo2 i {
+    font-size: 25px;
+}
+.submenu .sidebar .menu2 {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+
+}
+.submenu .sidebar .menu2 ul.nav {
+flex-direction: column;
+}
+.submenu .sidebar .media2 {
+    padding: 20px;
+}
+.submenu .sidebar .media2 i {
+    padding: 10px;
+    font-size: 20px;
+}
+.submenu .sidebar .find2 {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.submenu .sidebar .find2 .search2 {
+    border: 1px solid var(--line) ;
+    border-radius: 4px;
+    display: block !important;
+}
+.submenu .sidebar .find2 .search2 input {
+    padding: 8px;
+    border: none;
+    padding-right: 30px;
+
+}
+.submenu .sidebar .find2 .search2 button {
+    border: none;
+    background: none;
+    padding: 10px;
+}
+.submenu .sidebar .find2 .search2 button i {
+    font-size: 20px;
+    color: var(--text-main);
+}
+.submenu .right {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 100%;
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.4);
+    transform: translateY(-110%); 
+    transition: 1s;
+    z-index: 1;
+}
+.submenu .right.active {
+    transform: translateY(0%);
+
+}
+.submenu .sidebar .menu2 .chevron-down {
+    border: none;
+    background: none;
+    text-align: start;
+    color: var(--text-main);
+    list-style: none;
+    
+}
+.submenu .sidebar .menu2  .collapse{
+    border: none;
+}
+.submenu .sidebar .menu2  .collapse .card {
+    border: none;
+    line-height: 25px;
+}
+.submenu .sidebar .menu2 .products{
+    padding: 8px 16px;
+}
+.submenu .sidebar .menu2 i {
+
+}
+.submenu .sidebar .menu2 .products a {
+    color:  var(--text-main);
+    text-decoration: none;
+    padding-right: 140.19px;
+}
+.submenu .sidebar .menu2 .products .card a{
+    padding: 5px 10px;
+}
+.submenu .sidebar .menu2 b {
+    color: var(--text-main);
+}
+.submenu .sidebar .menu2 a:hover {
+    text-decoration: #222222;
+    font-size: 105%;
+}
+i:hover{
+    font-size: 110%;
+    color: #888888;
+}
+/* .list {
+    width: 110px;
+    border: 1px solid black;
+    position: absolute;
+    right: 49%;
+    z-index: 1;
+    padding: 10px;
+    transform: translateY(110%);
+    transition: 1s;
+}
+.list a {
+    padding: 5px 0;
+    text-decoration: none;
+    color: var(--text-main);
+}
+.pro :hover {
+    .list{
+        transform:translateY(0) ;
+    }
+} */
+
