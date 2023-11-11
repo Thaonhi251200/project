@@ -10,9 +10,9 @@ export default function Product() {
                     <Col sm="6" md="4" lg="3" className='block'>
                         <div className='box a'>
                             <Card
-                                // style={{
-                                //     width: '18rem'
-                                // }}
+                            // style={{
+                            //     width: '18rem'
+                            // }}
                             >
                                 <div className='icon'>
                                     <i class="fa-regular fa-heart"></i>
@@ -39,12 +39,22 @@ export default function Product() {
                                     <CardText tag="b" >
                                         Pandora Flower Stem Earrings
                                     </CardText>
+                                    <div className='start'>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
                                     <CardSubtitle
                                         className=" mb-2 text-muted text-center"
                                     >
-                                        <p className='price' tag='h4'><b>$119.00</b></p>
+                                        <div className='price'>
+                                            <p className='priceAfter' tag='h4'><b>$95.20</b></p>
+                                            <p className='priceBefore' tag='h4'><del>$119.00</del></p>
+                                        </div>
                                         <button className='add'>
-                                            <b> ADD TO CART</b>   
+                                            <b> ADD TO CART</b>
                                         </button>
                                     </CardSubtitle>
 
@@ -54,11 +64,8 @@ export default function Product() {
                     </Col>
                     <Col sm="6" md="4" lg="3" className='block'>
                         <div className='box b'>
-                            <Card
-                            // style={{
-                            //     width: '18rem'
-                            // }}
-                            >
+                            <Card>
+                                <div className='hot'><p><b>HOT</b></p></div>
                                 <div className='icon'>
                                     <i class="fa-regular fa-heart"></i>
                                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -83,6 +90,13 @@ export default function Product() {
                                     <CardText tag="b" >
                                         Pandora Flower Stem Earrings
                                     </CardText>
+                                    <div className='start'>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
                                     <CardSubtitle
                                         className=" mb-2 text-muted text-center"
                                     >
@@ -98,11 +112,7 @@ export default function Product() {
                     </Col>
                     <Col sm="6" md="4" lg="3" className='block'>
                         <div className='box c'>
-                            <Card
-                            // style={{
-                            //     width: '18rem'
-                            // }}
-                            >
+                            <Card>
                                 <div className='icon'>
                                     <i class="fa-regular fa-heart"></i>
                                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -127,6 +137,13 @@ export default function Product() {
                                     <CardText tag="b" >
                                         Pandora Flower Stem Earrings
                                     </CardText>
+                                    <div className='start'>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
                                     <CardSubtitle
                                         className=" mb-2 text-muted text-center"
                                     >
@@ -142,11 +159,7 @@ export default function Product() {
                     </Col>
                     <Col sm="6" md="4" lg="3" className='block'>
                         <div className='box d'>
-                            <Card
-                            // style={{
-                            //     width: '18rem'
-                            // }}
-                            >
+                            <Card>
                                 <div className='icon'>
                                     <i class="fa-regular fa-heart"></i>
                                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -171,6 +184,13 @@ export default function Product() {
                                     <CardText tag="b" >
                                         Pandora Flower Stem Earrings
                                     </CardText>
+                                    <div className='start'>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
                                     <CardSubtitle
                                         className=" mb-2 text-muted text-center"
                                     >

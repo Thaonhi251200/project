@@ -69,4 +69,10 @@ p.address {
 .all{
     padding: 30px 0;
 }
-
+a:hover{
+    font-size: 105%;
+}
+.media i:hover{
+    /* color: var(--line) !important; */
+    font-size: 105% !important;
+}

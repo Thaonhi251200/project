@@ -127,7 +127,7 @@ export default function Header1() {
                                         </Card>
                                     </Collapse>
                                 </div>
-                                <div className='products' >
+                                {/* <div className='products' >
                                     <a href='#'><b>Product</b></a>
                                     <Button className='s' onClick={toggle} >
                                         <i class="fa-solid fa-chevron-down"></i>
@@ -143,7 +143,7 @@ export default function Header1() {
                                             <a href='#'>Gift Ideas</a>
                                         </Card>
                                     </Collapse>
-                                </div>
+                                </div> */}
                             </React.StrictMode>
                             <NavItem>
                                 <NavLink href="">
@@ -167,15 +167,6 @@ export default function Header1() {
                 </div>
                 <div className='right' onClick={handle_toggle} ref={rightRef}></div>
             </div>
-            {/* <Card className='list'>
-                <a href='#'>Rings</a>
-                <a href='#'>Necklaces</a>
-                <a href='#'>Earnings</a>
-                <a href='#'>Bracelets</a>
-                <a href='#'>Gift Ideas</a>
-            </Card> */}
-
-
         </div>
     )
 }

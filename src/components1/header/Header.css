@@ -259,24 +259,4 @@ i:hover{
     font-size: 110%;
     color: #888888;
 }
-/* .list {
-    width: 110px;
-    border: 1px solid black;
-    position: absolute;
-    right: 49%;
-    z-index: 1;
-    padding: 10px;
-    transform: translateY(110%);
-    transition: 1s;
-}
-.list a {
-    padding: 5px 0;
-    text-decoration: none;
-    color: var(--text-main);
-}
-.pro :hover {
-    .list{
-        transform:translateY(0) ;
-    }
-} */
 

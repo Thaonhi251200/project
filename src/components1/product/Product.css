@@ -27,7 +27,7 @@ input{
 
 .box .card .icon i {
     padding: 8px;
-    font-size: 20px;
+    font-size: 14px;
     border: 1px solid var(#333333);
     border-radius: 50%;
     margin: 5px;
@@ -71,13 +71,22 @@ input{
     margin-bottom: 0 !important;
     margin-top: 8px;
 }
-
 .box .card .price {
-    margin: 5px;
+    display: flex;
+
+}
+.box .card .price .priceAfter{
     transform: translateY(0);
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--text-main);  
+    padding: 5px;
+    margin: 0;
+}
+.box .card .price .priceBefore {
+    margin: 0 !important;
+    padding: 5px 0;
+    color: var(--text-para);
 }
 
 .box .card .add {
@@ -110,26 +119,45 @@ input{
     font-size: 15px;
 }
 .box .card-body .card-text{
-    font-size: 16px;
+    font-size: 17px;
     color: #222222;
     margin-bottom: 10px;
+    /* font-weight: normal;  */
 }
 .box .card-body {
     padding: 4px;
+    line-height: 25px;
 }
 /* discount */
 .box.a .promotion p {
-    padding: 5px;
+    padding: 1px 5px;
     text-align: center;
     background: #ffa965;
     /* width: 70px; */
     position: absolute;
     top: 5px;
     left: 5px;
-    font-size: 10px;
+    font-size: 11px;
     color: #fff;
 }
 .box.a .promotion {
     /* background: #ffa965; */
 
+}
+.box .start i{
+    font-size: 14px;
+    color: var(--text-main);
+}
+.box .hot p {
+    padding: 1px 5px;
+    margin: 0;
+    font-size: 11px;
+    color: #fff;
+}
+.box .hot {
+    background: #ff554e;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
 }
