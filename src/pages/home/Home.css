@@ -1,0 +1,389 @@
+a {
+    text-decoration: none;
+    color: var(--text-main);
+}
+a:hover {
+    color: var(--text-main);
+}
+.slider {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translateY(-60%); */
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    /* padding: 30px 0; */
+    margin: 40px 0;
+    margin-bottom: 50px;
+}
+
+.banner-box {
+    height: auto;
+    position: relative;
+    padding: 10px 10px;
+    /* margin: 20px; */
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.banner-box .box-img {
+    overflow: hidden;
+    height: auto;
+}
+
+.banner-box:hover img {
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* .box-img {
+    height: 400px;
+} */
+.box-img img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-box .box-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+    z-index: 1;
+}
+
+/* banner a */
+
+.banner.a .banner-box {
+    height: auto;
+    overflow: hidden;
+    transition: 1s;
+}
+
+/* .banner.a .banner-box .box-img {
+    overflow: hidden;
+}
+
+.banner.a .banner-box .box-img:hover img {
+    transform: scale(1.1);
+    transition: 0.6s;
+} */
+
+.banner-box .box-content h3 {
+    padding: 10px 4px;
+}
+
+.banner-box .box-content button {
+    padding: 4px 10px;
+    border: none;
+    background: none;
+}
+
+.banner-box .box-content button:hover {
+    border-bottom: 1px solid var(--text-main);
+}
+
+.banner-box .box-content.two {
+    color: #fff;
+}
+
+.banner-box .box-content.two button a {
+    color: #fff;
+}
+
+.banner-box .box-content.two button:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.title {
+    text-align: center;
+}
+
+.title-line {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+}
+
+.title-line h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    top: -27px;
+    background: #fff;
+    padding: 0 5px;
+    margin: 0;
+
+}
+
+.title-line p {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--text-para);
+}
+
+.pink {
+    text-align: center;
+    padding: 30px;
+    margin: 30px 0;
+    margin-bottom: 50px;
+    background: rgb(255, 236, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink .pls-button a {
+    text-decoration: none;
+    color: var(--text-main);
+    padding: 10px 30px;
+    border: 2px solid var(--text-main);
+    margin: 0 20px;
+
+}
+
+.pink .pls-button a:hover {
+    background: var(--text-main);
+    color: #fff;
+}
+
+.select-a {
+    /* display: flex; */
+    margin: 20px;
+    text-align: center;
+}
+
+.select-a a {
+    text-decoration: none;
+    color: var(--text-para);
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.select-a a::before {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--text-main);
+    transition: 0.5s;
+}
+
+.select-a a:hover:before {
+    width: 100%;
+}
+
+.select-a a:hover {
+    color: var(--text-main);
+}
+
+/* review */
+.review {
+    margin: 40px 0;
+    background: #EDE3E3;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    padding-bottom: 70px;
+}
+
+.review h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.review .block-review .chril-block-review {
+    padding: 20px 20px;
+    /* margin: 10px; */
+    background: #fff;
+    border-radius: 4px;
+}
+
+.review .block-review p b {
+    color: var(--text-main);
+}
+
+.review .block-review p {
+    color: var(--text-para);
+}
+
+.review .block-review .text-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review .block-review .text-icon .icon-start i {
+    color: #F58773;
+
+}
+
+.review .block-review .chril-block-review:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s;
+}
+
+/* journal */
+
+.journal {
+    border-bottom: 1px solid var(--line);
+}
+.journal .journal-tilte {
+    text-align: center;
+}
+
+.journal .box-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.journal .box-img::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    transition: 1s;
+    z-index: 1;
+    display: none;
+}
+
+.journal .box-img:hover:before {
+    display: block;
+}
+
+.journal .box-img p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: smaller;
+    color: #fff;
+    padding: 1px 4px;
+    background: var(--text-main);
+    z-index: 1;
+}
+
+.journal .journal-banner-box .box-img:hover img {
+    transform: scale(1.1);
+    transition: linear 0.5s;
+}
+
+.journal .box-content {
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.journal .box-content span {
+    color: var(--text-para);
+}
+
+.journal .box-content button {
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    background: none;
+    /* border-bottom: 2px solid var(--text-main); */
+    position: relative;
+}
+
+.journal .box-content button::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--text-main);
+    transition: 0.5s;
+}
+
+.journal .box-content button:hover:before {
+    width: 100%;
+}
+
+/* instagram */
+.instagram {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.instagram .instagram-tilte {
+    text-align: center;
+}
+
+.instagram .box-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.instagram .box-img::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    transition: 1s;
+    z-index: 1;
+    display: none;
+}
+
+.instagram .box-img:hover:before {
+    display: block;
+}
+
+.instagram .box-img i {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    /* transform: translateY(-50%); */
+    font-size: 40px;
+    color: #fff;
+    display: none;
+    transition: 1s;
+    z-index: 1;
+
+}
+.instagram .instagram-banner-box .box-img:hover i{
+ display: block;
+}
+
+.instagram .instagram-banner-box .box-img:hover img {
+    transform: scale(1.1);
+    transition: linear 0.5s;
+}
+
+@media only screen and (max-width: 991px) {
+    .review .block-review .chril-block-review {
+        margin: 10px 0;
+    }
+}

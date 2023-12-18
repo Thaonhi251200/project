@@ -7,12 +7,18 @@ import './Footer.css'
 export default function Footer() {
     return (
         <div className='all'>
+             <div className="Subscribe">
+                <h1><b>Subscribe Newsletter</b></h1>
+                <p>Sing up to our Newsletter and get the discount code.</p>
+                <input className="input" type="email" name="EMAIL" placeholder="Email Address" required=""></input>
+                <input className="submit" type="submit" value="Subscribe"></input>
+            </div>
             <Container>
                     <div className='footer' >
                 <Row>
                         <Col sm="6" md="4" lg="3">
                             <div className='box one ' >
-                                <a href='#'> <h3> ALUKAS & CO</h3></a>
+                                <a href='/'> <h3><b>ALUKAS & CO</b></h3></a>
                                 <p>Gold & Diamond</p>
                             </div>
                         </Col>
@@ -21,10 +27,10 @@ export default function Footer() {
                                 <h5><b>About Alukas</b></h5>
                                 <ul>
                                     <li>
-                                        <a href='#'>About Us</a>
+                                        <a href='/AboutUs'>About Us</a>
                                     </li>
                                     <li>
-                                        <a href='#'>Blog</a>
+                                        <a href='/Blog'>Blog</a>
                                     </li>
                                     <li>
                                         <a href='#'>Sitemap</a>

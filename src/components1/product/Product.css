@@ -4,7 +4,10 @@
     /* margin: 5px; */
 }
 .block {
-    padding: 6px;
+    padding: 12px;
+}
+.block a  {
+    text-decoration: none;
 }
 input{
     color: var(--text-main);
@@ -73,13 +76,15 @@ input{
 }
 .box .card .price {
     display: flex;
+    color: var(--text-main);
+    font-size: 18px;
+    transform: translateY(0);
+    transition: 0.5s;
 
 }
 .box .card .price .priceAfter{
-    transform: translateY(0);
-    transition: 0.5s;
-    font-size: 18px;
-    color: var(--text-main);  
+    /* font-size: 18px;
+    color: var(--text-main);   */
     padding: 5px;
     margin: 0;
 }
@@ -87,6 +92,7 @@ input{
     margin: 0 !important;
     padding: 5px 0;
     color: var(--text-para);
+    font-size: 15px;
 }
 
 .box .card .add {
@@ -107,6 +113,9 @@ input{
 .box .card:hover .add {
     transform: translateY(0);
 }
+.box .card:hover {
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
 
 .box .card:hover .price {
     transform: translateY(-250%);
@@ -123,41 +132,46 @@ input{
     color: #222222;
     margin-bottom: 10px;
     /* font-weight: normal;  */
+    text-wrap: nowrap;
 }
 .box .card-body {
     padding: 4px;
     line-height: 25px;
 }
 /* discount */
-.box.a .promotion p {
+.box .promotion {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.box .discount p {
     padding: 1px 5px;
     text-align: center;
     background: #ffa965;
-    /* width: 70px; */
-    position: absolute;
-    top: 5px;
-    left: 5px;
     font-size: 11px;
     color: #fff;
-}
-.box.a .promotion {
-    /* background: #ffa965; */
-
+    margin-bottom: 5px;
+    white-space: nowrap;
 }
 .box .start i{
     font-size: 14px;
     color: var(--text-main);
 }
-.box .hot p {
+.box .hot p b {
     padding: 1px 5px;
     margin: 0;
     font-size: 11px;
     color: #fff;
-}
-.box .hot {
+    width: 100%;
     background: #ff554e;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    z-index: 1;
 }
+@media only screen and (max-width: 767px) {
+    .box .card .add{
+        transform: translateY(0);
+        /* position:relative; */
+    }
+
+}
+
+
+

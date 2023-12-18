@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 } */
+
 .footer{
     border-bottom: 1px solid #e5e5e5;
     padding-top: 20px 0px;
     color: #555555;
+    margin-top: 40px;
 }
 .footer .box a {
     text-decoration: none;
@@ -57,6 +59,34 @@ p.address {
 .license {
     text-align: center;
     color: #777777;
+    padding: 20px;
+}
+/* Subscribe */
+.Subscribe {
+    text-align: center;
+    padding: 50px;
+    background: var(--line);
+    margin: 10px 0;
+}
+.Subscribe input {
+    padding: 8px 25px;
+    margin: 5px;
+}
+.Subscribe .input {
+    text-align: start;
+    padding-right: 140px;
+    border: 2px solid var(--text-main);
+}
+.Subscribe .submit {
+    background: var(--text-main);
+    color: #FFF;
+    border: none;
+    
+}
+.Subscribe .submit:hover{
+    background: var(--line);
+    color: var(--text-main);
+    border: 1px solid var(--text-main);
 }
 @media only screen and (max-width: 575px){
     .footer .row {

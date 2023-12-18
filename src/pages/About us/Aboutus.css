@@ -1,0 +1,151 @@
+.block-1 {
+    margin-bottom: 40px;
+}
+.breadcrumb a {
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+.breadcrumb a.choice {
+    color: var(--text-para);
+}
+.aboutUs-title {
+    text-align: center  ;
+    color: var(--text-main);
+}
+.aboutUs-title p {
+    color: var(--text-para);
+}
+.aboutUs-img {
+    margin: 20px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.aboutUs-img .col-sm-12 {
+    padding: 0;
+}
+.aboutUs-img img {
+    width: 100%;
+}
+.our-store {
+    margin: 20px 0;
+    margin-right: 20px;
+}
+.our-store-content {
+    margin: 20px 0;
+}
+.our-store-content h5 {
+    padding-bottom: 20px;
+
+}
+.our-store-content p {
+    color: var(--text-para);
+}
+.our-mission .mission-img {
+    padding: 0;
+}
+.our-mission .mission-img img {
+    width: 100%;
+    height: auto;
+}
+.our-mission {
+    margin: 40px 0;
+    color: var(--text-main);
+}
+.our-mission .our-mission-content {
+    background: var(--line);
+    padding: 60px 40px;
+    
+}
+.our-mission .our-mission-content .mission-content.a {
+    margin-bottom: 50px;
+}
+.our-mission .our-mission-content .mission-content p {
+    color: var(--text-para);
+}
+.Responsible{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+}
+.Responsible .box {
+    text-align: center;
+    padding: 20px 10px;
+}
+.Responsible .box i {
+    font-size: 40px;
+    padding: 20px;
+}
+.Responsible .box p {
+    color: var(--text-para);
+}
+/* leader */
+.leader {
+    text-align: center;
+    margin: 60px 0;
+}
+.leader h4 {
+    margin: 0;
+}
+.leader .leader-img {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.leader .leader-img img{
+    width: 100%;
+}
+.leader .leader-img .contact {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    padding: 5px;
+    background: var(--line);
+    width: 100px;
+}
+.leader .leader-img .contact i {
+ font-size: 20px;
+ color: var(--text-main);
+ padding: 5px;
+}
+.leader .box {
+    text-align:center;
+    margin: 30px 0;
+}
+.leader .box:hover .contact {
+    transition: 1s;
+    bottom: 20px;
+}
+.favourite-store {
+    display: flex;
+    padding: 30px;
+    background: #EDE3E3;
+    color: var(--text-main);
+
+}
+.favourite-store .start i {
+    color: #F58773;
+}
+.favourite-store .favourite-img {
+    width: 40%;
+    margin-left: 50px;
+}
+.favourite-store .favourite-img img {
+    width: 100%;
+}
+.favourite-store .favourite-text  h3{
+margin: 50px 0;
+}
+.brank {
+    /* display: flex; */
+    padding: 20px;
+    margin: 10px 0;
+    margin-top: 60px;
+    /* justify-content: space-around; */
+}
+.brank img {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
