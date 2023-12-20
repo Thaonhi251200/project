@@ -7,7 +7,7 @@ import "./Error.css"
 export default function Error() {
     return (
         <div>
-            {/* <Header1/> */}
+            <Header1/>
             <Container className="error">
                 <Breadcrumb listTag="div">
                     <BreadcrumbItem

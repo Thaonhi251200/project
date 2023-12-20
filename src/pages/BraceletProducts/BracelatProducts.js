@@ -7,6 +7,7 @@ import bg from "../../img/default-slider-1.jpeg"
 import Footer from "../../components1/footer/Footer"
 import { BreadcrumbItem, Breadcrumb } from "reactstrap"
 import ListBracelets from "../../components1/bracelet/ListBracelets"
+import {Link} from "react-router-dom"
 export default function BraceletProducts() {
     const [weight, setWeight] = useState(350)
     const changeWeight = (event) => {
@@ -50,11 +51,11 @@ export default function BraceletProducts() {
                             <div className="category-menu">
                                 <a href="/Products"> <h2><b>Categories</b></h2></a>
                                 <ul>
-                                    <li><a href="/Rings">Rings</a></li>
-                                    <li><a href="/Necklaces">Necklaces</a></li>
-                                    <li><a href="/Earnings">Earnings</a></li>
-                                    <li><a href="/Bracelets">Bracelets</a></li>
-                                    <li><a href="/GiftIdeas">Gift Ideas</a></li>
+                                    <li><Link to="/Rings">Rings</Link></li>
+                                    <li><Link to="/Necklaces">Necklaces</Link></li>
+                                    <li><Link to="/Earnings">Earnings</Link></li>
+                                    <li><Link className="choice-this" to="/Bracelets">Bracelets</Link></li>
+                                    <li><Link to="/GiftIdeas">Gift Ideas</Link></li>
                                 </ul>
                             </div>
                             <div className="category-filter">

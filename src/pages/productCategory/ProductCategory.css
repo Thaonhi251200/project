@@ -1,4 +1,4 @@
-.productCategory .category-content {
+    .productCategory .category-content {
     display: flex;
 }
 
@@ -52,10 +52,6 @@
     font-size: large;
     position: relative;
 }
-.productCategory .category-content .category-text a.ring{
-    border-bottom: 2px solid var(--text-main);
-}
-
 .productCategory .category-content .category-text ul li a::before {
     content: "";
     position: absolute;

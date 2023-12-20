@@ -54,7 +54,7 @@ export default function GiftIdeaProducts() {
                                     <li><a href="/Necklaces">Necklaces</a></li>
                                     <li><a href="/Earnings">Earnings</a></li>
                                     <li><a href="/Bracelets">Bracelets</a></li>
-                                    <li><a href="/GiftIdeas">Gift Ideas</a></li>
+                                    <li><a className="choice-this" href="/GiftIdeas">Gift Ideas</a></li>
                                 </ul>
                             </div>
                             <div className="category-filter">

@@ -8,6 +8,9 @@
     margin-bottom: 40px;
     position: relative;
 }
+.choice-this {
+    border-bottom: 2px solid var(--text-main);
+}
 
 .productCategory .bg .text {
     position: absolute;

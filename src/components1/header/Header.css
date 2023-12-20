@@ -243,7 +243,7 @@ div.Navbar1 .find .search input {
     background-color: #fff;
     transform: translateX(-110%);
     transition: 0.7s;
-    z-index: 1;
+    z-index: 2;
 }
 
 .submenu .sidebar.active {
@@ -357,9 +357,6 @@ div.Navbar1 .find .search input {
 
 .submenu .sidebar .menu2 .products {
     padding: 8px 16px;
-}
-.submenu .sidebar .menu2 .nav {
-    justify-content: center;
 }
 
 .submenu .sidebar .menu2 {

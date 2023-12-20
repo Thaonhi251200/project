@@ -50,7 +50,7 @@ export default function NecklaceProducts() {
                                 <a href="/Products"> <h2><b>Categories</b></h2></a>
                                 <ul>
                                     <li><a href="/Rings">Rings</a></li>
-                                    <li><a href="/Necklaces">Necklaces</a></li>
+                                    <li><a className="choice-this" href="/Necklaces">Necklaces</a></li>
                                     <li><a href="/Earnings">Earnings</a></li>
                                     <li><a href="/Bracelets">Bracelets</a></li>
                                     <li><a href="/GiftIdeas">Gift Ideas</a></li>

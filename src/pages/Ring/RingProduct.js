@@ -49,7 +49,7 @@ export default function RingProducts() {
                         <div className="category-menu">
                                 <a href="/Products"> <h2><b>Categories</b></h2></a>
                                 <ul>
-                                    <li><a href="/Rings">Rings</a></li>
+                                    <li><a className="choice-this" href="/Rings">Rings</a></li>
                                     <li><a href="/Necklaces">Necklaces</a></li>
                                     <li><a href="/Earnings">Earnings</a></li>
                                     <li><a href="/Bracelets">Bracelets</a></li>

@@ -49,7 +49,7 @@ export default function Header1() {
                     <div className="icon">
                         <i id='user' class="fa-solid fa-user"></i>
                         <i id='heart' class="fa-solid fa-heart"></i>
-                        <i id='cart' class="fa-solid fa-cart-shopping"  onClick={cart_handle_toggle}></i>
+                        <i id='cart' class="fa-solid fa-cart-shopping" onClick={cart_handle_toggle}></i>
                     </div>
 
                 </div>
@@ -117,9 +117,11 @@ export default function Header1() {
                     <div className='menu2'>
                         <Nav >
                             <NavItem>
-                            <NavItem >
-                                <a href="/"><b>Home</b></a>
-                            </NavItem>
+                                <NavItem >
+                                <NavLink href='/'>
+                                <b>Home</b>
+                                </NavLink>
+                                </NavItem>
                                 <React.StrictMode>
                                     <div className='products' >
                                         <a href='/Products'><b>Product</b></a>
@@ -161,7 +163,7 @@ export default function Header1() {
                 <div className='right' onClick={handle_toggle} ref={rightRef}></div>
             </div>
             <div className='cart'>
-            <div className='left' onClick={cart_handle_toggle} ref={leftRef}>
+                <div className='left' onClick={cart_handle_toggle} ref={leftRef}>
                 </div>
                 <div className='cartbar' ref={cartRef}>
                     <div className="yourCart">
